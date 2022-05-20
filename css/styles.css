@@ -1,0 +1,104 @@
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+  background-color: lightseagreen;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -43px;
+}
+#nav-list a {
+  text-align: center;
+  font-size: 1.8em;
+  color: #000000;
+}
+
+#nav-list a:hover {
+  color: #ffffff;	
+}
+
+/** End css for HEADER **/
+
+
+/** MAIN CONTENT **/
+
+#main-title {
+  color: black;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#single-section {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 30px;
+}
+
+#section-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#chicken-section {
+	background-color: lightslategray;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+#beef-section {
+	background-color: lightsalmon;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+#sushi-section {
+	background-color: lightblue;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+
+
+#section-description {
+	
+}
+
+
+/** END of MAIN CONTENT **/
